@@ -1,0 +1,67 @@
+1. Create User — POST /users
+🔹 Request:
+bash
+
+curl -X POST http://127.0.0.1:5000/users \
+-H "Content-Type: application/json" \
+-d '{"name": "Alice", "email": "alice@example.com"}'
+🔸 Response (201 Created):
+
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+
+
+✅ 2. Get All Users — GET /users
+🔹 Request:
+curl http://127.0.0.1:5000/users
+🔸 Response (200 OK):
+
+[
+  {
+    "id": 1,
+    "name": "Alice",
+    "email": "alice@example.com"
+  }
+]
+
+
+
+✅ 3. Get User by ID — GET /users/<id>
+🔹 Request:
+curl http://127.0.0.1:5000/users/1
+🔸 Response (200 OK):
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+🔸 If user not found (404 Not Found):
+{
+  "error": "User not found"
+}
+
+
+
+
+✅ 4. Update User — PUT /users/<id>
+🔹 Request:
+
+curl -X PUT http://127.0.0.1:5000/users/1 \
+-H "Content-Type: application/json" \
+-d '{"name": "Alice Smith", "email": "alice.smith@example.com"}'
+🔸 Response (200 OK):
+
+{
+  "id": 1,
+  "name": "Alice Smith",
+  "email": "alice.smith@example.com"
+}
+🔸 If user not found (404 Not Found):
+
+{
+  "error": "User not found"
+}
