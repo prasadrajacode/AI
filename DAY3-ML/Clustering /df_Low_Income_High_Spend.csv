@@ -1,0 +1,23 @@
+,CustomerID,Gender,Age,Annual Income (k$),Spending Score (1-100),label
+1,2,1,21,15,81,Low-Income-High-Spend
+3,4,0,23,16,77,Low-Income-High-Spend
+5,6,0,22,17,76,Low-Income-High-Spend
+7,8,0,23,18,94,Low-Income-High-Spend
+9,10,0,30,19,72,Low-Income-High-Spend
+11,12,0,35,19,99,Low-Income-High-Spend
+13,14,0,24,20,77,Low-Income-High-Spend
+15,16,1,22,20,79,Low-Income-High-Spend
+17,18,1,20,21,66,Low-Income-High-Spend
+19,20,0,35,23,98,Low-Income-High-Spend
+21,22,1,25,24,73,Low-Income-High-Spend
+23,24,1,31,25,73,Low-Income-High-Spend
+25,26,1,29,28,82,Low-Income-High-Spend
+27,28,1,35,28,61,Low-Income-High-Spend
+29,30,0,23,29,87,Low-Income-High-Spend
+31,32,0,21,30,73,Low-Income-High-Spend
+33,34,1,18,33,92,Low-Income-High-Spend
+35,36,0,21,33,81,Low-Income-High-Spend
+37,38,0,30,34,73,Low-Income-High-Spend
+39,40,0,20,37,75,Low-Income-High-Spend
+41,42,1,24,38,92,Low-Income-High-Spend
+45,46,0,24,39,65,Low-Income-High-Spend
